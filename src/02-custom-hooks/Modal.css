@@ -1,0 +1,40 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #282c34;
+}
+  
+.Content {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+  
+.Content__title {
+  border: solid 1px #111;
+  color: #111;
+  width: 100px;
+  text-align: center;
+  padding: 15px;
+}
+
+.Content__button {
+  background-color: #111;
+  border: solid 1px #888;
+  padding: 8px 25px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+  
