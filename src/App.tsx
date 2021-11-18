@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from './01-hooks/Counter';
+import Counter from './01-basic-hooks/Counter';
 import './App.css';
 
 function App() {
